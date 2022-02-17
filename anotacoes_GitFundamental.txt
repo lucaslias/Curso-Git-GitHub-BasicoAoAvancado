@@ -40,6 +40,9 @@ Removendo arquivos do repo
 	Arquivos serão deletados da monitoração do git
 	Suas atualização não serão consideradas pelo git(somente se fizer o git add novamente)
 
+Historico de alterações
+	- Acessar um log das modificações
+
 ********** Lista de comandos importantes **********
 - git init (criar o arquivo git na pasta)
 
@@ -69,3 +72,5 @@ Removendo arquivos do repo
 - git clone "link_do_git" . (para copiar tudo o que tem)
 
 - git rm "nome_do_arquivo" (precisa dar commir e push)
+
+- git log (exibe as ultimas alterações com o projeto)
