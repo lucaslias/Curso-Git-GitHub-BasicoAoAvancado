@@ -36,6 +36,10 @@ Clonando mudancas
 	- Ato de baixar um repositorio
 	- Utilizado quando entramos em um novo projeto
 
+Removendo arquivos do repo
+	Arquivos serão deletados da monitoração do git
+	Suas atualização não serão consideradas pelo git(somente se fizer o git add novamente)
+
 ********** Lista de comandos importantes **********
 - git init (criar o arquivo git na pasta)
 
@@ -63,3 +67,5 @@ Clonando mudancas
 - git pull (verifica se teve alguma atualização no repositorio remoto, se tiver atualiza)
 
 - git clone "link_do_git" . (para copiar tudo o que tem)
+
+- git rm "nome_do_arquivo" (precisa dar commir e push)
