@@ -1,0 +1,22 @@
+Controle de Versão
+	- Tecnica para gerenciar o codigo fonte, registra e pode reverter versões
+
+Git
+	- Baseada em repositorios
+
+Repositorio
+	- Cada projeto tem um
+	- É onde fica armazenado os codigos
+	- Cada dev pode baixar o repositorio e criar versões diferentes
+	- git init (cria a pasta .git com os arquivos necessarios)
+
+O que é gitHub
+	- Serviço que grencia repositorios
+
+
+
+********** Lista de comandos importantes **********
+- git init (criar o arquivo git na pasta)
+-
+-
+-
