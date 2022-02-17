@@ -1,8 +1,10 @@
 Controle de Versão
 	- Tecnica para gerenciar o codigo fonte, registra e pode reverter versões
+	- Permite alterar facilmente entre elas
+	- Cada membro pode trabalhar em uma versão diferente
 
 Git
-	- Baseada em repositorios
+	- Baseada em repositoriosm que contem todas as versoes do codigo e as copias de cada dev
 
 Repositorio
 	- Cada projeto tem um
@@ -11,51 +13,65 @@ Repositorio
 	- git init (cria a pasta .git com os arquivos necessarios)
 
 O que é gitHub
-	- Serviço que grencia repositorios
+	- Serviço que gerencia repositorios
+
 
 Verificando mudanças
-	- verifica com o git status
-	- arquivos não moniorados e arquivos modificados
+	- verifica com o comando git status
+	- Mapeia os arquivos não monitorados e arquivos modificados (é a diferença do que está no servido e salvo no projeto)
 
 Adicionando aquivos ao projeto
-	- Possivel fazer com um arquivo o com varios de uma só vez
+	- Para adicionar algo utilizamos o comando git add
+	- Possivel fazer com um arquivo ou com varios de uma só vez
 	- Se não adicionar o arquivo ele não fará parte do controle de versão
 
 Salvando alterações do projeto
-	- git commit
-	- É uma boa pratica enviar mensagens a cada commit, com as alterações que foram realizadas
+	- git commit (para varios de uma vez "-a")
+	- É uma boa pratica enviar mensagens a cada commit, com as alterações que foram realizadas "-m"
 
 Enviando Arquivos para o repositorio remoto
+	- Ação realizada pelo git push
 	- Apos o envio o codigo será atualizado
 
 Recebendo as mudanças
+	- Ação realizada pelo git pull
 	- Sincronizar o ambiente local com as mudanças do remoto
 	- Busca as atualizações e se encontradas são unidas ao codigo atual
 
 Clonando mudancas
+	- Ação realizada pelo git clone
 	- Ato de baixar um repositorio
 	- Utilizado quando entramos em um novo projeto
 
-Removendo arquivos do repo
-	Arquivos serão deletados da monitoração do git
-	Suas atualização não serão consideradas pelo git(somente se fizer o git add novamente)
+Removendo arquivos do repositorio
+	Arquivos serão deletados da monitoração do git(repositorio e fisico)
 
 Historico de alterações
-	- Acessar um log das modificações
+	- Acessar um log das modificações, o comando é git log
 
 Renomear Arquivos
-	- Possivel renomear e mover arquivos
+	- Possivel renomear e mover arquivos, o arquivo anterior será excluido
+	- É o mesmo comando (git mv)
 
 Desfazer alterações
 	- Um arquivo modificado pode ser retornado para o estado original
+	- O comando é git checkout
 
 Ignorando arquivos no projeto
 	- ignorar o envio de alguns arquivos que não fazem senido serem enviados
 	- Necessario incluir o arquivo .gitignore e nele inserir todos os arquivos que não fazem parte do versionamento
 	- Util para arquivos gerados automaticamente ou arquivos com informações secretas 
+		para ignorar todos os arquivos de uma pasta "nome_pasta/*"
+
+Resetando uma brach
+	Todas as alerações commitadas e também pendentes serão excluidas
 
 
-********** Lista de comandos importantes **********
+
+
+
+******************** Lista de comandos importantes ******************** 
+
 - git init (criar o arquivo git na pasta)
 
 - git add 'nome_do_arquivo' (adiciona o arquivo)
@@ -91,3 +107,5 @@ Ignorando arquivos no projeto
 	- para renomear é a mesma coisa somente mudar o nome do arquivo e apontar para a mesma pasta
 
 - git checkout "nome_arquivo" (arquivo volta ao seu estado original, desfazendo as mudanças locais)
+
+- git reset --hard origin/main (reseta o que está para commit e o que está alterado local)
