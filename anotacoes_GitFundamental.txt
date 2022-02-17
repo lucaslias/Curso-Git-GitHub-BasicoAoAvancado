@@ -24,9 +24,17 @@ Adicionando aquivos ao projeto
 Salvando alterações do projeto
 	- git commit
 	- É uma boa pratica enviar mensagens a cada commit, com as alterações que foram realizadas
-	-
 
+Enviando Arquivos para o repositorio remoto
+	- Apos o envio o codigo será atualizado
 
+Recebendo as mudanças
+	- Sincronizar o ambiente local com as mudanças do remoto
+	- Busca as atualizações e se encontradas são unidas ao codigo atual
+
+Clonando mudancas
+	- Ato de baixar um repositorio
+	- Utilizado quando entramos em um novo projeto
 
 ********** Lista de comandos importantes **********
 - git init (criar o arquivo git na pasta)
@@ -47,3 +55,11 @@ Salvando alterações do projeto
 - git status (verifica os status dos arquivos)
 
 - git add . (adicioana todos os arquivos que precisam ser enviados)
+
+- git commit -a -m "texto_mensagem" (para dar commit em varios os arquivos com as mensagens)
+
+- git push 
+
+- git pull (verifica se teve alguma atualização no repositorio remoto, se tiver atualiza)
+
+- git clone "link_do_git" . (para copiar tudo o que tem)
