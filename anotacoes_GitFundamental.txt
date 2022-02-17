@@ -46,6 +46,15 @@ Historico de alterações
 Renomear Arquivos
 	- Possivel renomear e mover arquivos
 
+Desfazer alterações
+	- Um arquivo modificado pode ser retornado para o estado original
+
+Ignorando arquivos no projeto
+	- ignorar o envio de alguns arquivos que não fazem senido serem enviados
+	- Necessario incluir o arquivo .gitignore e nele inserir todos os arquivos que não fazem parte do versionamento
+	- Util para arquivos gerados automaticamente ou arquivos com informações secretas 
+
+
 ********** Lista de comandos importantes **********
 - git init (criar o arquivo git na pasta)
 
@@ -80,3 +89,5 @@ Renomear Arquivos
 
 - git mv "caminho/nome_arquivo" "novoCaminho/nome_arquivo" (para mover o arquivo, commit e push)
 	- para renomear é a mesma coisa somente mudar o nome do arquivo e apontar para a mesma pasta
+
+- git checkout "nome_arquivo" (arquivo volta ao seu estado original, desfazendo as mudanças locais)
