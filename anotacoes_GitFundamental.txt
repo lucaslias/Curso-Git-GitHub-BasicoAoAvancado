@@ -13,10 +13,37 @@ Repositorio
 O que é gitHub
 	- Serviço que grencia repositorios
 
+Verificando mudanças
+	- verifica com o git status
+	- arquivos não moniorados e arquivos modificados
+
+Adicionando aquivos ao projeto
+	- Possivel fazer com um arquivo o com varios de uma só vez
+	- Se não adicionar o arquivo ele não fará parte do controle de versão
+
+Salvando alterações do projeto
+	- git commit
+	- É uma boa pratica enviar mensagens a cada commit, com as alterações que foram realizadas
+	-
+
 
 
 ********** Lista de comandos importantes **********
 - git init (criar o arquivo git na pasta)
--
--
--
+
+- git add 'nome_do_arquivo' (adiciona o arquivo)
+
+- git commit -m "texto_mensagem" (faz o commit com a mensagem)
+
+- git branch -M main (cria a branch)
+
+- git remote add origin "link_do_git_hub" (relaciona o seu arquivo com o repositorio do github)
+	(se tiver problema estes dois comandos removem a origin)
+	 -git remote -v 	
+	 -git remote rm origin
+
+- git push -u origin main (envia o arquivo para o github)
+
+- git status (verifica os status dos arquivos)
+
+- git add . (adicioana todos os arquivos que precisam ser enviados)
