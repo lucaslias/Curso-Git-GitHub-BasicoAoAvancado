@@ -1,0 +1,36 @@
+- O que é um Brache?
+	- ramificações do projeto, cada dev pode ter o seu 
+	- É a forma como git separa as versoes
+	- Geralmente cada feature de um projeto fica em branch separadas
+	- Após a finalização os branch são unidos para o codigo final (merge)
+
+- Criando e visualizando branches
+	- Para visualizar e criar branch é o comando "git branch"
+
+- Deletar Branch
+	- não é comum 
+	- Para deletar usar a flag -d ou --delete (junto com o comando git branch)
+
+- Mudando de branch
+	- git checkout -b "nome"
+	- O mesmo comando é utilizado para dispensar mudancas de um arquivo
+	- Alterar o brach pode levar as alterações não commitadas junto
+		- ******** realizar commit antes de trocar de branch **********
+
+
+
+******************** Lista de comandos importantes ******************** 
+
+- git branch (para visualizar as branches)
+	- O nome com "*" é o que estamos atualmente
+
+- git branch "nome" (para criar)
+
+- git branch -d "nome"
+
+- git checkout -b "nome" (muda e cria a branch)
+	git checkout "nome" (só muda)
+
+
+
+
