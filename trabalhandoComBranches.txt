@@ -26,10 +26,13 @@
 
 - git branch "nome" (para criar)
 
-- git branch -d "nome"
+- git branch -d "nome" (para deletar uma branch)
 
 - git checkout -b "nome" (muda e cria a branch)
 	git checkout "nome" (só muda)
+
+
+teste mudar teste
 
 
 
