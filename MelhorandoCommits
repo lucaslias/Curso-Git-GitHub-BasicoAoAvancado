@@ -17,5 +17,5 @@ Boas mensagens de commit
 
 ******************** Lista de comandos importantes ******************** 
 
-- git commit -a -m "texto assunto
+- git commit -a -m "texto assunto (tem que pular a linha)
 	texto corpo"
