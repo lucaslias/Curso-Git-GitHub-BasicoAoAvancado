@@ -68,6 +68,7 @@
 - git push --set -upstream origin "nome" (Cria a branch no git)
 
 - git merge "nome" (unir branchs, precisa dar o push após) 
+	- git merge origin/"nome" (quanda da problema de not something we can merge- aconteceu quando criei a branch no git)
 
 - git stash (mover as alteacoes para a stash e reiniciar o projeto)
 
