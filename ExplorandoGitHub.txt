@@ -19,6 +19,7 @@ Aba Pull Request
 	- A ideia é que o codigo não seja inserido direto na master e sim passe por um pull request para ser analisado
 	- Pull request vem de um novo branc criado e enviado para o repositorio com o incremento do codigo
 
+<<<<<<< HEAD
 Processos CI/CD
 	- Na aba Acions é onde se automatiza o deploy
 	- Pode-se criar uma rotina de atualizar a master
@@ -50,3 +51,5 @@ Criando gists
 	- são pequenos blocos de codigos que podem ser hospedado no gitHub
 	- Armazenar uma solução que achou interessante e não quer perder
 	- Para criar "new gists"
+=======
+>>>>>>> fc0dd8ed0c186c6719a6b38de3bc9bc768dff5f2
