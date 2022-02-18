@@ -4,7 +4,7 @@
 	- Geralmente cada feature de um projeto fica em branch separadas
 	- Após a finalização os branch são unidos para o codigo final (merge)
 
-- Criando e visualizando branches
+- Criando e visualizando branches  
 	- Para visualizar e criar branch é o comando "git branch" 
 
 - Deletar Branch
