@@ -22,6 +22,7 @@
 		ex: entra na mastar e executado o comando para atualizar a master com as alerações 
 	- Recebe as atualizações dos outros devs
 	- depois de realizar o merge, realizar o push
+	- Da pra atualizar a branch que voce está com a master, só fazer o merge
 
 
 
