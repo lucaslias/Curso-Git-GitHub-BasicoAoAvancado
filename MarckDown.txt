@@ -1,0 +1,32 @@
+Markdown
+	- Tecnica de escrever alguns simbolos para caracteres especiais
+	- Adicionar estilos a textos Web
+	- README aceita markdown
+	- Serve para melhor experiencia do usuario
+
+Criando Titulos
+	- Cabeçalhos são os titulos
+	- # -> h1, ## -> h2, ...
+
+Enfase nos textos
+	- Negrito **texto** ou __text__
+	- Italico *texto* ou _texto_
+
+Listas com Marckdown
+	- ordenadas e não ordenadas
+	- nao ordenadas -> * item
+	- ordenadas -> 1.item
+
+Inserindo Imagens
+	- ![Texto Alt](link imagem);
+
+Links em Markdown
+	- [Texto do link](link)
+	- se for link do github pode colocar direto
+
+Inserindo codigo
+	- Para inserir ``` codigo ```
+
+Task List
+	- concluidas -> - [X] CSS
+	- não concluidas -> - [ ] html
