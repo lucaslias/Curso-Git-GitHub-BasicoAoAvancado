@@ -1,0 +1,50 @@
+Encontrando branches
+	- Branch são criadas o tempo todo e o git pode não estar mapeando
+	- O comando é o git fetch
+	- Comando util para utilizar p branch de algum outro dev
+	- Se atualizar o codigo e der push o outro deve não precisa dar fetch apenas pull
+
+Receber atualização
+	- Comando: git pull
+	- cada branch pode ser atualizada com o pull
+
+Enviando alteracoes
+	- git push faz o inverso do pull
+	- envia atualizaçõs de um push especifico para outro dev
+	- sempre dar o git status antes para ver o que tem que ser enviado(lembrar de conferir se tem que adicioanar algum arquivo)
+
+Utilizando o remote
+	- da para remover a url antiga e adicionar uma nova
+
+Conhecendo submodulos
+	- 2 ou mais projetos em um repositorio
+	- comando submodule add "nome"
+	
+	<<fluxo> pega a url do repositorio no git -> git sumodule "url"
+
+Atualizando o submodulos
+	- Commitar as mudanças e fazer o seguinte push: 
+		git push --recurse-submodules=on-demand
+
+
+
+******************** Lista de comandos importantes ******************** 
+
+- git fetch -a (para conhecer os branchs)
+
+- git pull (atualizar o repositorio local)
+
+- git push
+
+- git remote -v (mostra as origins)
+
+- git remote rm origin (remove a url do repositorio)
+
+- git remote add origin (adiciona a url)
+
+- git submodule (para listar os submodulos)
+
+- git submodule "url" (para adicioanar um repositorio como submodulo)
+
+- git push --recurse-submodules=on-demand (envia a mudança do submodule)
+
