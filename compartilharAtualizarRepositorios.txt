@@ -44,7 +44,7 @@ Atualizando o submodulos
 
 - git submodule (para listar os submodulos)
 
-- git submodule "url" (para adicioanar um repositorio como submodulo)
+- git submodule "url" (para adicioanar um repositorio como submodulo) 
 
 - git push --recurse-submodules=on-demand (envia a mudança do submodule)
 
