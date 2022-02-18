@@ -6,7 +6,7 @@ Encontrando branches
 
 Receber atualização
 	- Comando: git pull
-	- cada branch pode ser atualizada com o pull
+	- cada branch pode ser atualizada com o pull 
 
 Enviando alteracoes
 	- git push faz o inverso do pull
