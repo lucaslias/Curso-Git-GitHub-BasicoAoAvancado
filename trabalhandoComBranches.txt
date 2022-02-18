@@ -65,6 +65,8 @@
 - git checkout -b "nome" (muda e cria a branch)
 	git checkout "nome" (só muda)
 
+- git push --set -u origin "nome" (Cria a branch no git)
+
 - git merge "nome" (unir branchs, precisa dar o push após) 
 
 - git stash (mover as alteacoes para a stash e reiniciar o projeto)
@@ -82,5 +84,6 @@
 - git push origin "nome" (envia uma tag)
 	- git push origin --tags (envia todas as tags)
 
-teste branch
+
+
 
