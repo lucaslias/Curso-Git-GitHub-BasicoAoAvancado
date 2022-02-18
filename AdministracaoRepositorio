@@ -13,6 +13,14 @@ Checar intergridade de arquivos
 	- verifica possiveis corrupções em arquivos
 	- Comando git fsck
 
+Reflog
+	- Mapeia todos os passos do repositorio
+	- Mais completo que o git log
+	- Ficam salvo por até 30 dias
+
+Comprimindo repositorio
+	- tranformar o repositorio em arquivo
+	- comando git archive --format zip --output master_files.zip master
 
 
 
@@ -23,3 +31,7 @@ Checar intergridade de arquivos
 - git gc (faz o garbage collector)
 
 - git fsck (verifica a integridade dos arquivos)
+
+- git reflog (verifica as alterações)
+
+- git archive --format zip --output "nome_arquivo"s.zip "nomeBranch"
