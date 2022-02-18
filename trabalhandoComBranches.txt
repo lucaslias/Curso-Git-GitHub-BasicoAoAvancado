@@ -46,6 +46,9 @@
 	- git show "nome" para verificar a tag
 	- git checkoutt "nome" para trocar de tag
 
+- Enviando tags ao repositorio
+	- envia as tags para o repositorio
+	- git push origin "nome" ou git push origin --tags
 
 
 
@@ -75,6 +78,9 @@
 - git tag -a "nome" -m "podeTerMensagem" (criar a tag, tem que fazer o commit depois)
 
 - git tag (lista as tags)
+
+- git push origin "nome" (envia uma tag)
+	- git push origin --tags (envia todas as tags)
 
 
 
