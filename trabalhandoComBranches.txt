@@ -45,9 +45,7 @@
 - Verificando e alterando tags
 	- git show "nome" para verificar a tag
 	- git checkout "nome" para trocar de tag
-
-
-
+	<fluxo> cria a tag -> commit -> cria outra
 
 
 ******************** Lista de comandos importantes ******************** 
@@ -76,7 +74,7 @@
 
 - git tag (lista as tags)
 
-- git show "nome"
+- git show "nome" (lista as altterações)
 
-- git checkout "nome"
+- git checkout "nome" (altera entre as tags)
 
