@@ -27,7 +27,6 @@ Atualizando o submodulos
 		git push --recurse-submodules=on-demand
   
 
-
 ******************** Lista de comandos importantes ******************** 
 
 - git fetch -a (para conhecer os branchs)
