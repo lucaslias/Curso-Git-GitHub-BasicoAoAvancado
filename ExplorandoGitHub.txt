@@ -2,7 +2,7 @@ Criando Repositorio
 	- Nome do repo, descricao , licença
 	- Tudo poderá ser alterado ao longo do projeto
 	- "choose a license" por padrão "MIT"
-
+ 
 Verificando codigo fontes e licenças
 	- Na aba "Code" teremos acesso a informações como o codigo fonte
 	- README.md : documentação do projeto
