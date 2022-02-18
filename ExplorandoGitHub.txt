@@ -1,0 +1,52 @@
+Criando Repositorio
+	- Nome do repo, descricao , licença
+	- Tudo poderá ser alterado ao longo do projeto
+	- "choose a license" por padrão "MIT"
+
+Verificando codigo fontes e licenças
+	- Na aba "Code" teremos acesso a informações como o codigo fonte
+	- README.md : documentação do projeto
+	- License : detalhes da licença do projeto
+
+Verificando Issue
+	- Criar tarefas ou bugs do projeto
+	- Bom para deixar a organização ciente do que precisa ser feito
+	- Podemos utilizar o Markdowns no texto também(igual ao README.md)
+	- precisa de um label e um responsavel
+
+Aba Pull Request
+	- é onde os colaboradores enviam codigos para resolver as issues ou adicionar novas funcionalidades
+	- A ideia é que o codigo não seja inserido direto na master e sim passe por um pull request para ser analisado
+	- Pull request vem de um novo branc criado e enviado para o repositorio com o incremento do codigo
+
+Processos CI/CD
+	- Na aba Acions é onde se automatiza o deploy
+	- Pode-se criar uma rotina de atualizar a master
+	- Normalmente pessoal de infra
+
+Criando Projetos no GitHub
+	- Podemos criar um projeto e utilizar como quadro de tarefas
+	- Processo conhecido como Kanban, pode ajudar a organizar  seu time criando notas que podem virar issues
+	-Estrutura interessane: backlog, retorno de qualidade, dev, teste, finalizadas, ...
+	- A tela lembra o "Trello"
+
+Aba WIKI
+	- Documentação mais extensa para o projeto
+	- Descrever funcionalidades, bugs conhecidos e não solucionados, entre outras funções
+	- "Repositorio de conhecimento"
+
+Aba Insights
+	- Informações detalhadas do projeto
+	- ex: QUem sao os contribuidores, commits, forks, ...
+	- Entender como o projeto está andando
+
+Aba Settings
+	- Alterar informações da criação do projeto
+	- Configurar o projeto
+	- Adiconar colaboradores
+	- Remover o repositorio
+
+Criando gists
+	- são pequenos blocos de codigos que podem ser hospedado no gitHub
+	- Armazenar uma solução que achou interessante e não quer perder
+	- Para criar "new gists"
