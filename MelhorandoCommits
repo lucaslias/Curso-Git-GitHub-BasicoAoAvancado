@@ -8,7 +8,14 @@ Branch com commits ruins
 	- Ao fim da solução podemos fazer um rebase
 	- escolhemos os branches para excluir (squash) e renomear (reword)
 
-
+Boas mensagens de commit
+	- Assunto maximo 50 caracteres
+	- Corpo maximo 72 caracteres
+	- Letra inicial maiuscula
+	- Explicar por que e como do commit
 
 
 ******************** Lista de comandos importantes ******************** 
+
+- git commit -a -m "texto assunto
+	texto corpo"
