@@ -20,3 +20,5 @@ Log atividade
 
 - git diff (exibe as diferenças entre o branch atual e o remoto)
 	- git diff "nome" "nomeb" (diferença entre dois arquivos)
+
+- git shortlog(mostra todos os logs)
