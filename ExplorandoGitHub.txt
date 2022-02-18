@@ -1,0 +1,21 @@
+Criando Repositorio
+	- Nome do repo, descricao , licença
+	- Tudo poderá ser alterado ao longo do projeto
+	- "choose a license" por padrão "MIT"
+
+Verificando codigo fontes e licenças
+	- Na aba "Code" teremos acesso a informações como o codigo fonte
+	- README.md : documentação do projeto
+	- License : detalhes da licença do projeto
+
+Verificando Issue
+	- Criar tarefas ou bugs do projeto
+	- Bom para deixar a organização ciente do que precisa ser feito
+	- Podemos utilizar o Markdowns no texto também(igual ao README.md)
+	- precisa de um label e um responsavel
+
+Aba Pull Request
+	- é onde os colaboradores enviam codigos para resolver as issues ou adicionar novas funcionalidades
+	- A ideia é que o codigo não seja inserido direto na master e sim passe por um pull request para ser analisado
+	- Pull request vem de um novo branc criado e enviado para o repositorio com o incremento do codigo
+
