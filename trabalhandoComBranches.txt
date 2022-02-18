@@ -5,7 +5,7 @@
 	- Após a finalização os branch são unidos para o codigo final (merge)
 
 - Criando e visualizando branches
-	- Para visualizar e criar branch é o comando "git branch"
+	- Para visualizar e criar branch é o comando "git branch" 
 
 - Deletar Branch
 	- não é comum 
