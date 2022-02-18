@@ -4,7 +4,7 @@ Controle de Versão
 	- Cada membro pode trabalhar em uma versão diferente
 
 Git
-	- Baseada em repositoriosm que contem todas as versoes do codigo e as copias de cada dev
+	- Baseada em repositoriosm que contem todas as versoes do codigo e as copias de cada dev 
 
 Repositorio
 	- Cada projeto tem um
