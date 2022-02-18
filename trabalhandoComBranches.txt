@@ -42,6 +42,10 @@
 - Criando tags
 	- Quando quer criar marcos para desenvolvimento (É um checkpoint de uma banch)
 
+- Verificando e alterando tags
+	- git show "nome" para verificar a tag
+	- git checkoutt "nome" para trocar de tag
+
 
 
 
@@ -69,6 +73,8 @@
 - git stash show -p "numero" (para ver o que tem de mudanca em cada)
 
 - git tag -a "nome" -m "podeTerMensagem" (criar a tag, tem que fazer o commit depois)
+
+- git tag (lista as tags)
 
 
 
