@@ -44,7 +44,7 @@
 
 - Verificando e alterando tags
 	- git show "nome" para verificar a tag
-	- git checkoutt "nome" para trocar de tag
+	- git checkout "nome" para trocar de tag
 
 
 
@@ -76,5 +76,7 @@
 
 - git tag (lista as tags)
 
-- alteracoes tag 8
+- git show "nome"
+
+- git checkout "nome"
 
