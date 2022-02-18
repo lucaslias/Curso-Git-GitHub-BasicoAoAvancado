@@ -1,0 +1,24 @@
+Exibindo detalhes das branchs
+	- Informacoes da branch atual e seus commits
+	- comando git show "nome"
+	- Pode ser usado em tag também
+
+Exibindo as diferenças entre branchs
+	- Comando git diff exibe as mudancas
+
+Log atividade
+	- O comando é git shortlog
+	- Cada commit será unido por autor
+	- Saber quais commits foram enviados e por quem
+
+
+
+
+******************** Lista de comandos importantes ******************** 
+
+- git show "nome" (listas as modificacoes)
+
+- git diff (exibe as diferenças entre o branch atual e o remoto)
+	- git diff "nome" "nomeb" (diferença entre dois arquivos)
+
+- git shortlog(mostra todos os logs)
