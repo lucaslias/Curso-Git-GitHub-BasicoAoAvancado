@@ -29,7 +29,7 @@
 
 - Stash
 	- Salvar as modificações para prosseguir com outra abordagem mas não perder o codigo
-	- O comando é o git stach
+	- O comando é o git stash
 	- Apos o comando a branch volta para o original (é possivel recuperar)
 	- Se commitar não tem como fazer o stash
 
@@ -57,11 +57,14 @@
 
 - git merge "nome" (unir branchs, precisa dar o push após) 
 
+- git stash (mover as alteacoes para a stash e reiniciar o projeto)
+
 - git stash list (para listar as stashs possiveis)
 
 - git stash apply "numero" (para voltar)
 
 - git stash show -p "numero" (para ver o que tem de mudanca em cada)
+
 
 
 
