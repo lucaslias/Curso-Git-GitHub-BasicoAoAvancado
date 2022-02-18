@@ -1,0 +1,14 @@
+Importancia do commit
+	- Commit sem sentido atrapalha o projeto
+	- Padronizar os commit 
+
+Branch com commits ruins
+	- solução private branchs
+	- branchs não serão comparilhadas no projeto
+	- Ao fim da solução podemos fazer um rebase
+	- escolhemos os branches para excluir (squash) e renomear (reword)
+
+
+
+
+******************** Lista de comandos importantes ******************** 
