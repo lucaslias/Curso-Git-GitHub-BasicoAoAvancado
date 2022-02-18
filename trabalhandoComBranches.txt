@@ -47,6 +47,10 @@
 	- git checkout "nome" para trocar de tag
 	<fluxo> cria a tag -> commit -> cria outra
 
+- Enviando tags ao repositorio
+	- envia as tags para o repositorio
+	- git push origin "nome" ou git push origin --tags
+
 
 ******************** Lista de comandos importantes ******************** 
 
