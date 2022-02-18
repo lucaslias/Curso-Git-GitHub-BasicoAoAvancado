@@ -19,7 +19,9 @@
 
 - Unir Branch
 	- git merge "nome"
+		ex: entra na mastar e executado o comando para atualizar a master com as alerações 
 	- Recebe as atualizações dos outros devs
+	- depois de realizar o merge, realizar o push
 
 
 
@@ -39,7 +41,7 @@
 - git checkout -b "nome" (muda e cria a branch)
 	git checkout "nome" (só muda)
 
-- git merge "nome" (unir branchs)
+- git merge "nome" (unir branchs, precisa dar o push após) 
 
 
 
