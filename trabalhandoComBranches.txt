@@ -17,6 +17,14 @@
 	- Alterar o brach pode levar as alterações não commitadas junto
 		- ******** realizar commit antes de trocar de branch **********
 
+- Unir Branch
+	- git merge "nome"
+	- Recebe as atualizações dos outros devs
+
+
+
+<<FLuxo>> -> git pull na master -> git checkout -b "nome"
+
 
 
 ******************** Lista de comandos importantes ******************** 
@@ -31,8 +39,7 @@
 - git checkout -b "nome" (muda e cria a branch)
 	git checkout "nome" (só muda)
 
-
-teste mudar teste
+- git merge "nome" (unir branchs)
 
 
 
