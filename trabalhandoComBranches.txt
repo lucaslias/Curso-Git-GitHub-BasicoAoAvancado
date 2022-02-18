@@ -39,13 +39,16 @@
 - Remover as Stashs
 	- git stash clear para limpar tudo e git stash drop para algo especifico
 
+- Criando tags
+	- Quando quer criar marcos para desenvolvimento (É um checkpoint de uma banch)
+
 
 
 
 
 ******************** Lista de comandos importantes ******************** 
 
-- git branch (para visualizar as branches)
+- git branch (para visualizar as branches)go
 	- O nome com "*" é o que estamos atualmente
 
 - git branch "nome" (para criar)
@@ -65,7 +68,7 @@
 
 - git stash show -p "numero" (para ver o que tem de mudanca em cada)
 
-
+- git tag -a "nome" -m "podeTerMensagem" (criar a tag, tem que fazer o commit depois)
 
 
 
