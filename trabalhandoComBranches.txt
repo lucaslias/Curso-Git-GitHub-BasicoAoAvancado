@@ -65,7 +65,7 @@
 - git checkout -b "nome" (muda e cria a branch)
 	git checkout "nome" (só muda)
 
-- git push --set -u origin "nome" (Cria a branch no git)
+- git push --set -upstream origin "nome" (Cria a branch no git)
 
 - git merge "nome" (unir branchs, precisa dar o push após) 
 
