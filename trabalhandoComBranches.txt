@@ -25,6 +25,8 @@
 	- Da pra atualizar a branch que voce está com a master, só fazer o merge
 	- Normalmente não atualiza o master com a nossa branch
 
+	<<FLuxo>> -> git pull na master -> git checkout -b "nome"
+
 - Stash
 	- Salvar as modificações para prosseguir com outra abordagem mas não perder o codigo
 	- O comando é o git stach
@@ -34,8 +36,10 @@
 - Recuperar o Stash
 	- Comando git stash list para verificar as stash e git stach "nome" para recuperar 
 
+- Remover as Stashs
+	- git stash clear para limpar tudo e git stash drop para algo especifico
 
-<<FLuxo>> -> git pull na master -> git checkout -b "nome"
+
 
 
 
